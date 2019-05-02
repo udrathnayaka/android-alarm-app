@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|end"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                tools:text="PROBLEM"
+                android:id="@+id/problem"
+                android:layout_width="wrap_content"/>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:id="@+id/solution"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical|start"
+
+                tools:text="SOLUTION"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+             >
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <Button
+                        android:textColor="#000000"
+                        android:layout_marginRight="10dp"
+                        android:textSize="25dp"
+                        android:text="@string/one"
+                        android:layout_weight="1"
+                        android:id="@+id/btn01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_button_home"
+                       />
+                    <Button
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/two"
+                        android:layout_weight="1"
+                        android:id="@+id/btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_button_home"
+                       />
+                    <Button
+
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:text="@string/three"
+                        android:id="@+id/btn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                  >
+
+                    <Button
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:id="@+id/btn4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+
+                        android:layout_marginRight="10dp"
+
+                        android:text="@string/four"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textSize="25dp"
+                        android:id="@+id/btn5"
+                        android:layout_width="wrap_content"
+
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_button_home"
+                        android:text="@string/five"
+                        android:textColor="#000000"
+                        />
+
+
+
+                    <Button
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="25dp"
+                        android:id="@+id/btn6"
+                        android:layout_width="wrap_content"
+
+                        android:background="@drawable/rounded_button_home"
+                        android:text="@string/six"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <Button
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:layout_marginRight="10dp"
+                        android:textSize="25dp"
+                        android:id="@+id/btn7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="@string/seven"
+                        android:layout_weight="1"
+                        />
+                    <Button
+
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/btn8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="@string/eight"
+                        android:textSize="25dp"
+                        android:layout_weight="1"
+                        />
+                    <Button
+
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:id="@+id/btn9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="@string/nine"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <Button
+
+
+                        android:id="@+id/deletebutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:layout_marginRight="10dp"
+                        android:text="DELETE"
+                        android:layout_weight="1"
+                        />
+
+
+
+                    <Button
+                        android:id="@+id/btn0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:layout_marginRight="10dp"
+                        android:textSize="25dp"
+                        android:text="@string/zero"
+                        android:layout_weight="1"
+                        />
+
+
+
+                    <Button
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_button_home"
+                        android:textColor="#000000"
+                        android:text="@string/clear"
+                        android:id="@+id/clearbutton"
+                        android:layout_width="wrap_content"
+
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/rounded_button_home"
+                android:textColor="#000000"
+                android:id="@+id/cancelbutton"
+                android:layout_width="10dp"
+
+                android:text="Cancel"/>
+
+            <Button
+                android:layout_marginLeft="-50dp"
+                android:layout_marginRight="30dp"
+                android:textSize="20dp"
+                android:background="@drawable/rounded_button_home"
+                android:textColor="#000000"
+                android:id="@+id/snzbutton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+
+                android:text="@string/snooze"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
